@@ -420,6 +420,7 @@ font-family: "Roboto", sans-serif; */
 
 .list {
   display: flex;
+  padding-left: 0;
 }
 
 .social-link:not(:last-child) {
@@ -495,8 +496,29 @@ font-family: "Roboto", sans-serif; */
   padding-bottom: 20px;
 }
 
-.social-icons-link {
-  fhgjg
+.social-item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-item:hover,
+.social-item:focus {
+  background-color: var(--accent-color);
+}
+
+.social-icon-item {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social-icon-item:hover,
+.social-icon-item:focus {
+  fill: var(--primary-white-color);
 }
 
 .footer > .container {
@@ -554,7 +576,7 @@ font-family: "Roboto", sans-serif; */
   width: 20px;
   height: 20px;
   fill: var(--primary-white-color);
-  }
+}
 
 .subscribe-item {
   width: 570px;
