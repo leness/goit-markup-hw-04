@@ -421,6 +421,7 @@ font-family: "Roboto", sans-serif; */
 .list {
   display: flex;
   padding-left: 0;
+  justify-content: center;
 }
 
 .social-link:not(:last-child) {
