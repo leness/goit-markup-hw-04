@@ -26,14 +26,6 @@ font-family: "Roboto", sans-serif; */
   outline: 2px solid red;
 }
 
-/* .container main-nav {
-  display: flex;
-} */
-
-/* .box {
-  outline: 2px solid tomato;
-} */
-
 .logo {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -168,6 +160,7 @@ font-family: "Roboto", sans-serif; */
 .btn {
   font-weight: 500;
   font-size: 16px;
+  padding: 6px 22px;
   line-height: 1, 63;
   text-align: center;
   letter-spacing: 0.03em;
@@ -500,18 +493,10 @@ font-family: "Roboto", sans-serif; */
   padding-left: 0;
 }
 
-.customer {
+/* .customer {
   width: 170px;
   height: 90px;
-
-  /* outline: 2px solid red; */
-  /* border: 1px solid #afb1b8;
-  border-radius: 4px;
-
-  display: inline-flex;
-  justify-content: center;
-  align-items: center; */
-}
+} */
 
 .customer:not(:last-child) {
   margin-right: 30px;
@@ -541,40 +526,6 @@ font-family: "Roboto", sans-serif; */
 .customer-item:focus {
   border: 1px solid var(--accent-color);
 }
-
-/* .customer-item:hover,
-.customer-clients:hover,
-.customer-item:hover {
-  border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
-}
-
-.customer-item:hover {
-  border: 1px solid var(--accent-color);
-} */
-
-/* .customer-clients:hover {
-  fill: var(--accent-color);
-}
-
-.customer-item:hover
-} */
-
-/* .customer-item:hover {
-  color: var(--accent-color);
-} */
-
-/* .customer:hover {
-  fill: var(--accent-color);
-} */
-
-/* .customer-item:hover {
-  fill: var(--accent-color);
-} */
-
-/* .customer-item:hover {
-  fill: currentColor;
-} */
 
 /* Portfolio */
 
