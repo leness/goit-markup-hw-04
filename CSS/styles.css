@@ -110,6 +110,10 @@ font-family: "Roboto", sans-serif; */
   color: var(--accent-color);
 }
 
+.contacts-icon:hover {
+  fill: var(--accent-color);
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -129,6 +133,12 @@ font-family: "Roboto", sans-serif; */
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--title-text-color);
+}
+
+.contacts-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
 }
 
 .phone {
