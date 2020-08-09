@@ -503,12 +503,14 @@ font-family: "Roboto", sans-serif; */
 .customer {
   width: 170px;
   height: 90px;
-  border: 1px solid #afb1b8;
+
+  /* outline: 2px solid red; */
+  /* border: 1px solid #afb1b8;
   border-radius: 4px;
 
   display: inline-flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .customer:not(:last-child) {
@@ -519,19 +521,56 @@ font-family: "Roboto", sans-serif; */
   fill: #afb1b8;
 }
 
-/* .customer-item {
+.customer-item {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.customer-clients:hover,
+.customer-clients:focus {
+  fill: var(--accent-color);
+}
+
+.customer-item:hover,
+.customer-item:focus {
+  border: 1px solid var(--accent-color);
+}
+
+/* .customer-item:hover,
+.customer-clients:hover,
+.customer-item:hover {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.customer-item:hover {
+  border: 1px solid var(--accent-color);
+} */
+
+/* .customer-clients:hover {
+  fill: var(--accent-color);
+}
+
+.customer-item:hover
+} */
+
+/* .customer-item:hover {
+  color: var(--accent-color);
 } */
 
 /* .customer:hover {
   fill: var(--accent-color);
 } */
 
-.customer-item:hover {
+/* .customer-item:hover {
   fill: var(--accent-color);
-}
+} */
 
 /* .customer-item:hover {
   fill: currentColor;
