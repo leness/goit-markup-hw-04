@@ -167,6 +167,7 @@ font-family: "Roboto", sans-serif; */
   color: var(--primary-text-color);
   background: #f5f4fa;
   border-radius: 4px;
+  border-color: transparent;
 }
 
 .btn:hover,
@@ -174,6 +175,7 @@ font-family: "Roboto", sans-serif; */
   color: var(--primary-white-color);
   background: var(--accent-color);
   border-radius: 4px;
+  border-color: transparent;
 }
 
 .btn:not(:last-child) {
