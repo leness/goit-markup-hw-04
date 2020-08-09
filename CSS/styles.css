@@ -495,10 +495,10 @@ font-family: "Roboto", sans-serif; */
   padding-left: 0;
 }
 
-/* .customer {
+.customer {
   width: 170px;
   height: 90px;
-} */
+}
 
 .customer:not(:last-child) {
   margin-right: 30px;
