@@ -519,16 +519,19 @@ font-family: "Roboto", sans-serif; */
   align-items: center;
 }
 
-.customer-clients:hover,
+/* .customer-clients:hover,
 .customer-clients:focus {
   fill: var(--accent-color);
-}
+} */
 
 .customer-item:hover,
 .customer-item:focus {
   border: 1px solid var(--accent-color);
 }
 
+.customer-item:hover .customer-clients {
+  fill: var(--accent-color);
+}
 /* Portfolio */
 
 .container.portfolio {
