@@ -95,6 +95,10 @@ font-family: "Roboto", sans-serif; */
   color: var(--accent-color);
 }
 
+.contacts:hover {
+  color: var(--accent-color);
+}
+
 .menu-link:hover,
 .menu-link:focus,
 .contacts-link:hover,
@@ -102,8 +106,8 @@ font-family: "Roboto", sans-serif; */
   color: var(--accent-color);
 }
 
-.contacts-icon:hover {
-  fill: var(--accent-color);
+.contacts-icon {
+  fill: currentColor;
 }
 
 .navigation {
